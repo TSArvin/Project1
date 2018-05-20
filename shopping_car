@@ -15,7 +15,7 @@ while not exit_flag:
         if choice < len(products) and choice >= 0:
             shopping_car.append(products[choice])
             print('Added product %s into shopping car.'%(products[choice]))
-            print('shopping cart:\n',shopping_car)
+            print('shopping car:\n',shopping_car)
         else :
             print('Not such a product!')
     elif choice == 'q':
